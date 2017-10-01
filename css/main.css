@@ -1,0 +1,45 @@
+body {
+    background: rgb(236, 246, 255);
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* Section header  */
+.container_header {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 60px;
+    background-color: blue;
+}
+
+.header h1 {
+    float: left;
+}
+
+/* Section main */
+
+.main {
+    overflow: scroll;
+    width: 758px;
+    height: 694px;
+    background-color: white;
+}
+
+
+/* Section profile_list */
+
+.user_list {
+    float: left;
+}
+
+.profile {
+    width: 164px;
+    height: 205px;
+    background-color: white;
+}
