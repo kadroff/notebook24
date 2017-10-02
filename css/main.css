@@ -3,38 +3,70 @@ body {
 }
 
 .container {
-    width: 960px;
+    width: 1140px;
     margin: 0 auto;
+}
+
+.weather {
+    float: right;
 }
 
 /* Section header  */
-.container_header {
-    width: 1024px;
-    margin: 0 auto;
-}
 
 .header {
+    width: 100%;
     height: 60px;
-    background-color: blue;
+    background-color:#456479;
+    color: white;
 }
 
 .header h1 {
     float: left;
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.header_search {
+    width: 285px;
+    height: 28px;
+    margin-left: 65px;
+    margin-top: 14px;
+    border-radius: 14px;
+    border: 1px solid #2e4d60; 
+    background: #2e4d60;
+}
+
+.list_media li {
+    float: right;
+    list-style-type: none;
+    display: inline-block;
 }
 
 /* Section main */
 
 .main {
+    margin-left: 30px;
+    float: left;
     overflow: scroll;
-    width: 758px;
-    height: 694px;
+    margin-top: 20px;
+    width: 698px;
+    height: 574px;
     background-color: white;
 }
 
+.news_list li {
+    margin-top: 20px;
+    width: 664px;
+    height: 149px;
+    background-color: red;
+    list-style-type: none;
+}
 
-/* Section profile_list */
+/* Section user_list */
 
-.user_list {
+.sidebar {
+    margin-top: 20px;
     float: left;
 }
 
@@ -42,4 +74,30 @@ body {
     width: 164px;
     height: 205px;
     background-color: white;
+}
+
+.profile_list {
+    list-style-type: none;
+    margin-top: 180px;
+}
+
+/* Section info */
+
+.info {
+    float: left;
+}
+
+.block_list li {
+    margin-top: 20px;
+    width: 191px;
+    height: 150px;
+    background-color: white;
+    list-style-type: none;
+    border: 1px solid #CEC4C4;
+}
+
+/* Footer */
+.footer {
+    height: 50px;
+    background: #536476;
 }
