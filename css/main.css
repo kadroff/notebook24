@@ -30,15 +30,21 @@ body {
 .header_search {
     width: 285px;
     height: 28px;
-    margin-left: 65px;
     margin-top: 14px;
     border-radius: 14px;
-    border: 1px solid #2e4d60; 
+    border: 1px solid #dfdfdf;
     background: #2e4d60;
+    border: 1px;
+    color: white;
+}
+
+.list_media {
+    margin-left: 889px;
+    margin-top: -27px;
 }
 
 .list_media li {
-    float: right;
+    margin-left: 9px;
     list-style-type: none;
     display: inline-block;
 }
@@ -46,13 +52,26 @@ body {
 /* Section main */
 
 .main {
-    margin-left: 30px;
+    margin-left: 10px;
+    margin-top: 12px;
+    font-size: 14px;
     float: left;
-    overflow: scroll;
-    margin-top: 20px;
-    width: 698px;
-    height: 574px;
+    width: 760px;
+    height: 630px;
     background-color: white;
+    border: 1px solid #dfdfdf;
+}
+
+.title_list li {
+    list-style-type: none; 
+    display: inline-block;
+    color: #404a51;  
+}
+
+.news_list {
+    margin-top: 100px;
+    height: 465px;
+    overflow: scroll;
 }
 
 .news_list li {
@@ -66,14 +85,23 @@ body {
 /* Section user_list */
 
 .sidebar {
-    margin-top: 20px;
+    margin-top: 17px;
     float: left;
 }
 
 .profile {
+    margin-top: -5px;
     width: 164px;
     height: 205px;
     background-color: white;
+    border: 1px solid #dfdfdf;
+}
+
+.profile p {
+    margin-left: 81px;
+    margin-top: -42px;
+    font-size: 13px;
+    color: #304d60;
 }
 
 .profile_list {
@@ -81,10 +109,31 @@ body {
     margin-top: 180px;
 }
 
+.profile_list a {
+    text-decoration: none;
+}
+
+.profile_list a:hover {
+    width: 33px;
+    background-color: #d2e2ea;
+}
+
+.profile_img {
+    margin-top: 19px;
+    margin-left: 21px;
+
+}
+
 /* Section info */
 
 .info {
     float: left;
+    margin-left: -31px;
+    margin-top: -30px;
+}
+
+.block_list {
+    margin-top: 42px;
 }
 
 .block_list li {
@@ -93,7 +142,7 @@ body {
     height: 150px;
     background-color: white;
     list-style-type: none;
-    border: 1px solid #CEC4C4;
+    border: 1px solid #dfdfdf;
 }
 
 /* Footer */
